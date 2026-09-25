@@ -55,8 +55,8 @@ phone_book = {
     "The Police": "911",
     "WTHS": "508-799-1940"
 }
-name = input("Enter your name")
-number = input(f"Enter {name}'s your phone number:")
+name = input("Enter your name: ")
+number = input(f"Enter {name}'s phone number:")
 
 #add numbers
 
@@ -73,3 +73,9 @@ print("\nMy Phone Book:")
 for name, number in phone_book.items():
     print(f"{name}'s phone number: {number}")
 
+#-------------------------------------------------------------------
+
+# Ask for web
+# Give password
+# adding more question
+# While Loop
